@@ -10,4 +10,3 @@ usecaseDiagram
     Manager --> (Track defect status)
     Customer --> (View reports)
     Manager --> (Generate analytics)
-```
