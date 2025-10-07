@@ -1,14 +1,14 @@
 <template>
-  <main class="todo-page">
-    <TaskList v-model:items="tasks" />
-    <TaskStats :items="tasks" />
-  </main>
+  <div>
+    <h1>Мои задачи</h1>
+  </div>
 </template>
+
 
 <script setup>
 import { ref } from 'vue'
-import TaskList from '@/components/TaskList.vue'
-import TaskStats from '@/components/TaskStats.vue'
+// import TaskList from '@/components/TaskList.vue'
+// import TaskStats from '@/components/TaskStats.vue'
 
 const tasks = ref([])
 </script>
